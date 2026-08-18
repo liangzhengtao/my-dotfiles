@@ -1,6 +1,6 @@
 # Zsh Configuration
 
-> A comprehensive Zsh setup with oh-my-zsh, useful plugins, aliases, and a modern prompt.
+> A complete Zsh setup with oh-my-zsh, useful plugins, aliases, and a modern prompt.
 
 ---
 
