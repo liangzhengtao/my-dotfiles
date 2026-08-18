@@ -1,0 +1,51 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Secrets (never commit these!)
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Neovim
+nvim/plugin/
+
+# Tmux
+.tmux/resurrect/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*~
