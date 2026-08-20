@@ -7,23 +7,23 @@
 </div>
 
 
-# My Dotfiles
+# Meine Dotfiles
 
-**My development environment configs. Zsh, Git, VS Code, Neovim, Tmux — everything you need to be productive.**
+**Meine Entwicklungsumgebung-Konfigurationen. Zsh, Git, VS Code, Neovim, Tmux — alles, was Sie für Produktivität brauchen.**
 
 ---
 
-## What's Included
+## Was ist enthalten
 
-| Config | File | Description |
-|--------|------|-------------|
-| Zsh | [configs/zshrc.md](configs/zshrc.md) | Shell config with oh-my-zsh, plugins, aliases, and prompt |
-| Git | [configs/gitconfig.md](configs/gitconfig.md) | Git aliases, signing, diff tools, and workflow helpers |
-| VS Code | [configs/vscode-settings.md](configs/vscode-settings.md) | Settings, extensions, keybindings, and snippets |
-| Neovim | [configs/neovim.md](configs/neovim.md) | Full Neovim setup with LazyVim, LSP, and plugins |
-| Tmux | [configs/tmux.md](configs/tmux.md) | Terminal multiplexer config with plugins and status bar |
+| Konfiguration | Datei | Beschreibung |
+|---------------|-------|--------------|
+| Zsh | [configs/zshrc.md](configs/zshrc.md) | Shell-Konfiguration mit oh-my-zsh, Plugins, Aliases und Prompt |
+| Git | [configs/gitconfig.md](configs/gitconfig.md) | Git-Aliases, Signierung, Diff-Tools und Workflow-Helfer |
+| VS Code | [configs/vscode-settings.md](configs/vscode-settings.md) | Einstellungen, Erweiterungen, Tastenkombinationen und Snippets |
+| Neovim | [configs/neovim.md](configs/neovim.md) | Vollständige Neovim-Einrichtung mit LazyVim, LSP und Plugins |
+| Tmux | [configs/tmux.md](configs/tmux.md) | Terminal-Multiplexer-Konfiguration mit Plugins und Statusleiste |
 
-## Quick Start
+## Schnellstart
 
 ```bash
 # Clone the repo
@@ -40,9 +40,9 @@ cp ~/.tmux.conf ~/dotfiles-backup/$(date +%Y%m%d)/ 2>/dev/null || true
 # Each config file is a detailed guide — follow the setup instructions inside
 ```
 
-> **Note:** Each config file (`.md`) contains the actual configuration content along with setup instructions and explanations. Copy the relevant sections into your config files.
+> **Hinweis:** Jede Konfigurationsdatei (`.md`) enthält den tatsächlichen Konfigurationsinhalt zusammen mit Setup-Anleitungen und Erklärungen. Kopieren Sie die relevanten Abschnitte in Ihre Konfigurationsdateien.
 
-## Installation by Tool
+## Installation nach Tool
 
 ### Zsh
 
@@ -86,7 +86,7 @@ brew install neovim
 # code --install-extension <extension-id>
 ```
 
-## Project Structure
+## Projektstruktur
 
 ```
 my-dotfiles/
@@ -106,18 +106,18 @@ my-dotfiles/
 └── .gitignore
 ```
 
-## See Also
+## Siehe auch
 
-- [dotfiles.github.io](https://dotfiles.github.io/) — Community dotfiles directory
-- [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles) — Dotfiles resources
-- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) — Zsh framework
-- [LazyVim](https://github.com/LazyVim/LazyVim) — Neovim config framework
-- [tmux-plugin-manager](https://github.com/tmux-plugins/tpm) — Tmux plugin manager
+- [dotfiles.github.io](https://dotfiles.github.io/) — Community-Dotfiles-Verzeichnis
+- [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles) — Dotfiles-Ressourcen
+- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) — Zsh-Framework
+- [LazyVim](https://github.com/LazyVim/LazyVim) — Neovim-Konfigurationsframework
+- [tmux-plugin-manager](https://github.com/tmux-plugins/tpm) — Tmux-Plugin-Manager
 
-## License
+## Lizenz
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+Dieses Projekt steht unter der MIT-Lizenz — siehe die Datei [LICENSE](LICENSE) für Details.
 
-## Contributing
+## Mitwirken
 
-Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md) before submitting a pull request.
+Beiträge sind willkommen! Bitte lesen Sie den [Beitragsleitfaden](CONTRIBUTING.md) vor dem Erstellen eines Pull Requests.
